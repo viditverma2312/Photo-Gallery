@@ -1,4 +1,4 @@
- import * as firebase from 'firebase/app';
+ import firebase from 'firebase/app';
  import 'firebase/storage';
  import 'firebase/firestore';
  
@@ -6,6 +6,7 @@
  var firebaseConfig = {
   apiKey: "AIzaSyC0Ct8l0VFG4wOXIhWowiAhgfq_9gXXvcQ",
   authDomain: "photo-gallery-e51d4.firebaseapp.com",
+  // databaseURL: "https://photo-gallery-e51d4.firebaseio.com",
   projectId: "photo-gallery-e51d4",
   storageBucket: "photo-gallery-e51d4.appspot.com",
   messagingSenderId: "64445551376",
