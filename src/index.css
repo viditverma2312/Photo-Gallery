@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
 :root{
-  --primary: #efb6b2;
-  --secondary: #4e4e4e;
+  --primary: #a503d6;
+  --secondary: #1f1f1f;
   --error: #ff4a4a;
 }
 
@@ -10,6 +10,9 @@
 body{
   font-family: "Noto Serif";
   color: var(--secondary);
+  background-image: url(./jj-ying-7JX0-bfiuxQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .App{
   max-width: 960px;
@@ -84,7 +87,15 @@ label:hover{
   /* padding controls height, will always be perfectly square regardless of width */
   position: relative;
   opacity: 0.5;
+
 }
+
+.img-grid :hover{
+  transform: scale(1.05);
+  transition: 0.8s;
+
+}
+
 .img-wrap img{
   min-width: 100%;
   min-height: 100%;
